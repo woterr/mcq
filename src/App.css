@@ -1,0 +1,98 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+body{
+  background: #11111b;
+  color: #cdd6f4;
+  font-family: "Montserrat", serif;
+  display: flex;
+  font-weight: 400;
+  justify-content: center
+}
+
+.container{
+  min-width: 1224px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading_e{
+  border-radius: 10px;
+  background: #181825;
+  padding: 2.5rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  color: #89dceb;
+}
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+
+.number_inp{
+  border: none;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  font-family: "Montserrat";
+  background: #313244;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.components{
+  margin-top: 2rem;
+  height: 52rem;
+  width: 100%;
+  -moz-column-count: 4;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 20px;
+}
+
+.container > .mcq {
+  height: 1em;
+  margin: 0;
+}
+
+.number_inp:focus{
+  border: none;
+  outline: none;
+  background: #45475a;
+  transition: all 0.3s;
+}
+
+.mcq{
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+input[type=radio] {
+  margin-left: 10px;
+  appearance: none;
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background: #222235;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
+input[type=radio]:hover{
+  background: #313244;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+input[type=radio]:checked{
+  background: #a6e3a1;
+}
